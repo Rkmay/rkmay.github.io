@@ -18,6 +18,10 @@ function listenHomepage () {
         addItem(text);
     });
 
+    $('.todo-flist--item--remove').addEventListener('click', function () {
+        removeItem(text);
+    });
+
     console.log('homepage listeners set');
 }
 
@@ -47,4 +51,8 @@ function createItemButtons () {
 
 function markItemDone (event) {}
 
-function removeItem (event) {}
+function removeItem (event) {
+    console.log(event)
+    $('.todo-list').removeChild(newItem);
+
+}
