@@ -1,9 +1,106 @@
 * {
     box-sizing: border-box;
 }
-
-html, body {
-    margin: 0;
-    padding: 0;
-    font-size: 16px;
+#form{
+    position: relative;
+    left: 30%;
 }
+
+
+
+.done{
+
+    opacity: 0.5;
+}
+title {
+  display: none;
+}
+
+#header{
+    position: absolute;
+    width: 60%;
+    height: 90%;
+    top: 15%;
+    left: 22%;
+    background-color: rgb(255, 255, 255) ;
+   
+  }
+
+  #topbar{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    top: 0%;
+    left: 0%;
+    background-color: rgb(44, 171, 255);
+    color: rgb(255, 255, 255) ;
+    border-top-style: solid;;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-width: 5px;
+
+
+
+  }
+
+  #h2{
+      position: absolute;
+      left: 43%;
+      top: 8%;
+      color: rgb(255, 255, 255) ;
+      
+      font-size: 250%;
+
+      
+      font-family: didot;
+      
+     font-style: initial;
+     
+  }
+ #add{
+    
+    font-size: 25px;
+    border: none;
+    background-color: rgb(44, 171, 255);
+    font-family: didot;
+    color: rgb(255, 255, 255) ;
+    border-radius: 10px;
+   
+
+ }
+ #finished{
+    font-size: 15px;
+    border-color: none;
+    background-color: rgb(255, 139, 44);
+    font-family: didot;
+    color: rgb(255, 255, 255) ;
+    border-radius: 10px;
+
+ }
+
+ #finished{
+    font-size: 15px;
+    border-color: none;
+    background-color: rgb(255, 166, 82);
+    font-family: didot;
+    color: rgb(255, 255, 255) ;
+    border-radius: 10px;
+
+ }
+ #removal{
+    font-size: 15px;
+    border-color: none;
+    background-color: rgb(255, 166, 82);
+    font-family: didot;
+    color: rgb(255, 255, 255) ;
+    border-radius: 10px;
+
+ }
+
+
+
+
+
+ 
+

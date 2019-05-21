@@ -13,14 +13,23 @@ function listenHomepage () {
     $('.todo-form--add').addEventListener('click', function () {
         const inputField = $('.todo-form--input');
         const text = inputField.value;
+        if(text === '' || text === ' '){
+            console.log(text);
+            alert("Please Enter A Task");
+        }
+        else{
+        
         console.log(text);
-
-        addItem(text);
+        addItem(text + "   ");
+        inputField.value = '';
+    
+        }
     });
+    
 
-    $('.todo-flist--item--remove').addEventListener('click', function () {
-        removeItem(text);
-    });
+    $('.todo-list--item--remove').addEventListener('click', removeItem);
+
+    $('.todo-list--item--done').addEventListener('click', markItemDone);
 
     console.log('homepage listeners set');
 }
@@ -28,10 +37,14 @@ function listenHomepage () {
 function addItem (text) {
     const newItem = document.createElement('li');
     newItem.textContent = text;
+    
 
     const buttons = createItemButtons();
+   
     buttons.forEach(button => {
         newItem.appendChild(button)
+        
+        
     });
 
     $('.todo-list').appendChild(newItem);
@@ -39,20 +52,33 @@ function addItem (text) {
 
 function createItemButtons () {
     const done = document.createElement('button');
+    
     done.classList.add('todo-list--item--done');
     done.textContent = 'done';
+    done.addEventListener('click', markItemDone);
 
     const remove = document.createElement('button');
     remove.classList.add('todo-list--item--remove');
     remove.textContent = 'remove';
+    remove.addEventListener('click', removeItem);
 
     return [done, remove];
 }
 
-function markItemDone (event) {}
+function markItemDone (event) {
+   
 
-function removeItem (event) {
-    console.log(event)
-    $('.todo-list').removeChild(newItem);
+        event.target.parentElement.classList.add('done');
+
+
 
 }
+
+function removeItem (event) {
+    
+   $('.todo-list').removeChild(event.target.parentElement);
+
+
+}
+
+
