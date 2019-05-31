@@ -1,20 +1,147 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>To Dos</title>
-        <link rel="stylesheet" href="/todo.css">
+        
+        <title></title>
+<style> 
+.wrapper{
+    display:grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 1em;
+    justify-items: stretch;
+    
+
+   /* grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    */
+    grid-gap: 1em;
+   /* grid-auto-rows: 100px; */
+   grid-auto-rows: minmax(100px, auto);
+}
+
+
+.box1{
+    
+}
+.box6{
+
+   grid-column: 1/6;
+   grid-row: 2/9;
+background-image: url('cinnamoncover.jpg')
+}
+
+
+</style>
+        
     </head>
-    <body bgcolor= 'E3E3E3'>
+
+    <body>
+            
+      <div class = "wrapper">
+
+<div class = "box box1"> Box 1</div>
+<div class = "box box2"> Box 2</div>
+<div class = "box box3"> Box 3</div>
+<div class = "box box4"> Box 4</div>
+<div class = "box box5"> Box 5</div>
+<div class = "box box6"> 
+    <div id = 'cinnamoncover'>
+</div>
+
+</div>
+<div class = "box box7"> Box 7</div>
+<div class = "box box8"> Box 8</div>
+
+      </div>
+        
+
+         </body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>To Dos</title>
+<link href="https://fonts.googleapis.com/css?family=Pinyon+Script&display=swap" rel="stylesheet">"
+<link href="https://fonts.googleapis.com/css?family=Roboto:100&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Pinyon+Script&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Kristi&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/todo.css">
+        
+    </head>
+
+    <body>
             
         <header><h1>To Do List</h1></header>
         <main>
+
+
+
+
+               
+
+<div class="grid-container">
+        <div class="item1">1</div>
+        <div class="item2">2<button id = 'paragraph'>Cinnavilla</button></div>
+        <div class="item3">3</div>  
+        <div class="item4">4</div>
+        <div class="item5">5</div>
+        <div class="item6">6</div>
+        <div class="item7">7</div>
+        <div class="item8">8</div>  
+        <div class="item9">9</div>
+        <div class="item10">10</div>
+        <div class="item11">11</div>
+        <div class="item12">12</div>
+        <div class="item13">13</div>
+        <div class="item14">14</div>
+        <div class="item15">15</div>
+        <div class="item16">16</div>
+      </div>
+      
+
+
+            <div id= "background">
+
+
+
+                    <div id = 'the'> the</div>
+                    <div id = 'quote'> Live Deliciously</div>
+                    <div id = 'bakery'> treatery</div>
+                    
+
+                
+                    
+                </div>
+                <div id = 'quote'> Live Deliciously</div>
+                    
                 <div id="topbar"> 
-                        <div id = h2>To Do List</div>
+                       
                          </div>
+                         <div id="sidebars"> 
+                                
+                            </div>
+                            <div id="sidebars2"> 
+                                    <button id = 'baked' href = '#' >BAKERY</button>
+                                    <button id = 'chocolate' href = '#' >CHOCOLATE</button>
+                                </div>
+                                <div id="sidebars3"> 
+                                        <button id = 'gifts' href = '#' >GIFTS</button>
+                                        <button id = 'ingre' href = '#' >INGREDIENTS</button>
+                                    </div>
+                         <div id="topbar2"> 
+                        
+                            </div>
+                        
                          <div id="header">
             <div id = 'form' class="todo-wrapper">
                     
-                <ul class="todo-list">
+              <ul class="todo-list">
                     <li id = 'learn' class="todo-list--item">
                         Learn Javascript
                         <button id = 'finished' class="todo-list--item--done">Done</button>
@@ -25,9 +152,14 @@
                     <input id = 'theinput' class="todo-form--input" type="text"  />
                     <button id = 'add' class="todo-form--add">Add Task</button>
                 </div>
+            
 
                 
             </div>
+        </div>
+    </div>
+    <div id="cutoff"> 
+                                
         </div>
             
 
@@ -80,3 +212,4 @@
                 </script>
     </body>
 </html>
+-->

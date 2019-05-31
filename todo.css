@@ -1,11 +1,1367 @@
-* {
+body{
+    background-color: black;
+   
+}
+
+#background{
+    align-content: center;
+    position: absolute;
+ 
+    
+  
+    background-size: 100% 100%;
+    max-width: 3000px;
+    max-height: 970px;
+   
+    top: 0;
+    left: 0;
+    
+}
+.livedback{
+
+    background-image: url('cinnamonroll3.jpg');
+    background-size: 120% 100%;
+   text-align: center;
+   opacity: 1;
+   border-style: solid;
+   border-color: white;
+   border-width: 5px;
+   
+}
+.grid-container{
+    
+    display:grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+    grid-auto-rows: minmax(80px, auto);
+    justify-items: stretch;
+
+ 
+
+    
+}
+.item1, .item2, .item4, .item5{
+    background-color:rgb(0, 0, 0);
+    
+    background-size: 100% 100%;
+    text-align: center;
+    padding: 2em;
+    
+    
+
+}
+.item6{
+    grid-column: 1/6;
+    grid-row: 2/9;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1em;
+   z-index: 0;
+  
+   
+}
+.item7 {
+    grid-column: 1/6;
+    grid-row: 8;
+    background-color: rgb(0, 0, 0);
+    background-image: url('wood2.jpg');
+    z-index: 2;
+    background-size: 100% 150%;
+}
+.item8{
+    display: grid;
+    
+    grid-template-columns: 1fr;
+    grid-column: 1/6;
+    grid-row:9/17;
+  }
+.harvestback {
+    background-image: url('summercake.jpg');
+    background-size: 100% 100%;
+   text-align: center;
+   
+}
+.explore1{
+    font-family: 'Roboto', sans-serif;
+    font-size:45px;
+    border: none;
+    padding: -.5em;
+    position: absolute;
+   right: 0;
+    background-color: white;
+   
+}
+.harvestscreen{
+    background-color: white;
+    opacity: 0.5;
+    padding: 1em;
+z-index: 0;
+}
+.harvestbutton{
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 100px;
+    border: none;
+    background-color: transparent;
+   z-index: 1; 
+   
+   
+}
+.item9{
+    grid-column: 1/6;
+    grid-row: 17;
+    background-color: rgb(0, 0, 0);
+    background-image: url('wood2.jpg');
+    background-size: 100% 150%;
+} 
+.item10{
+
+    display: grid;
+    
+    grid-template-columns: 1fr;
+ 
+
+    grid-column: 1/6;
+    grid-row: 18/25;
+}
+    
+.howback {
+    background-image: url('breadmade.jpg');
+    background-size: 100% 115%;
+   text-align: center;
+}
+.explore2{
+    font-family: 'Roboto', sans-serif;
+    font-size:45px;
+    border: none;
+    padding: -.5em;
+    position: absolute;
+   right: 0;
+    background-color: white;
+   
+}
+.howscreen{
+    background-color: white;
+    opacity: 0.5;
+    padding: 1em;
+z-index: 0;
+}
+.howbutton{
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 100px;
+    border: none;
+    background-color: transparent;
+   z-index: 1; 
+   
+   
+}
+
+
+
+
+.logo{
+   
+    background-color: rgb(0, 0, 0);
+    grid-column: 3/4;
+    grid-row: 1/3;
+    font-size: 140px;
+    border-color: rgb(255, 255, 255);
+  
+border-color: transparent;
+    border-width: 5;
+    border-style: double;
+    text-align: center;
+    padding: 0.1em;
+    border-width: 3px;
+    opacity: 1;
+    z-index: 1;
+   
+   
+}
+#logobutton{
+    color: rgba(80, 45, 34, 0.849);
+    text-shadow: 0px 1px 1px rgb(0, 0, 0), 0px 0px 20px rgb(129, 26, 0);
+    font-size: 120px;
+  
+    font-family: 'Pinyon Script', cursive;
+    text-align: center;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+ 
+  border-color: silver;
+  border-style: double;
+   background-image: url('gold.jpg');
+   background-size: 100% 100%;
+    background-color:rgb(0, 0, 0);
+    opacity: 1;
+ 
+
+}
+.quote{
+    color: rgb(255, 255, 255);
+    font-size: 190px;
+    font-family: 'Pinyon Script', cursive;
+    text-align: center;
+    background-color: transparent;
+    opacity: 1;
+   
+    padding: 1.2em;
+    text-shadow: 0px 0px 20px rgb(139, 62, 17), 0px 0px 20px rgb(255, 255, 255);
+    
+
+
+}
+
+
+.chocolate{
+   
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 23px;
+    background-color: black;
+    color:white;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: solid;
+    border-width: 1px;
+
+}
+.bakery{
+     
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 23px;
+    background-color: black;
+    color:white;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: solid;
+    border-width: 1px;
+
+}
+.gifts{
+     
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 23px;
+    background-color: black;
+    color:white;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: solid;
+    border-width: 1px;
+
+}
+.ingredients{ 
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 23px;
+    background-color: black;
+    color:white;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: solid;
+    border-width: 1px;
+}
+
+.explore1 {
+    box-shadow: 0 13px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+    font-family: 'Roboto', sans-serif;
+    font-size:45px;
+    border: none;
+    padding: -.5em;
+    position: absolute;
+   right: 0;
+    background-color: white;
+color: black;
+    display: inline-block;
+ 
+    text-align: center;
+  
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .explore1 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .explore1 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .explore1:hover span {
+    padding-right: 25px;
+  }
+  
+  .explore1:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .explore2 {
+    font-family: 'Roboto', sans-serif;
+    font-size:45px;
+    border: none;
+    padding: -.5em;
+    position: absolute;
+   right: 0;
+    background-color: white;
+color: black;
+    display: inline-block;
+ 
+    text-align: center;
+  
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+
+    box-shadow: 0 13px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+  }
+  
+  .explore2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .explore2 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .explore2:hover span {
+    padding-right: 25px;
+  }
+  
+  .explore2:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+  .grid-containerchocolate{
+    
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: minmax(35px, auto);
+    justify-items: stretch;
+    
+    grid-gap: 2em;
+   align-content: center;
+text-align: center;
+margin-left: 4em;
+margin-top: 2em;
+margin-right: 4em;
+    border-width: 10px;
+
+
+    background-size: 100% 100%;
+    
+}
+
+
+  .chocback{
+    background-image: url('boxchoc.jpg');
+    background-size: 100% 100%;
+   text-align: center;
+   opacity: 1;
+
+  }
+  .item1choc{
+      color:white;
+      background-image:url('milkchoc.jpg');
+      background-size: 100% 100%;
+      grid-column: 1;
+      grid-row: 1/7;
+    
+  
+      align-content: center;
+  }
+  .item2choc{
+    color:white;
+    background-image:url('darkchoc.jpg');
+    background-size: 100% 100%;
+    grid-column: 2;
+    grid-row: 1/7;
+    padding: 1em;
+  
+  
+    
+}
+.item3choc{
+    color:white;
+    background-image:url('bdaychoc.jpg');
+    background-size: 100% 100%;
+    grid-row: 1/7;
+   
+ 
+    align-content: center;
+}
+.item4choc{
+  color:white;
+  background-image:url('luxtruff.jpg');
+  background-size: 100% 100%;
+  grid-row: 11/19;
+  padding: 1em;
+  border-style: solid;
+  border-color: white;
+  border-width: 7px;
+}
+.labelmilk {
+
+
+    font-family: 'Roboto', sans-serif;
+    font-size:45px;
+    border: none;
+    padding: .5em;
+   
+    background-color: white;
+color: black;
+    display: inline-block;
+ 
+    text-align: center;
+  
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+
+    box-shadow: 0 13px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+  }
+  
+  .labelmilk span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .labelmilk span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .labelmilk:hover span {
+    padding-right: 25px;
+  }
+  
+  .labelmilk:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
+  .labeldark {
+
+
+    font-family: 'Roboto', sans-serif;
+    font-size:45px;
+    border: none;
+    padding: .5em;
+   
+    background-color: white;
+color: black;
+    display: inline-block;
+ 
+    text-align: center;
+  
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+
+    box-shadow: 0 13px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+  }
+  
+  .labeldark span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .labeldark span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .labeldark:hover span {
+    padding-right: 25px;
+  }
+  
+  .labeldark:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .luxlabel{
+
+    grid-row: 19;
+  }
+  .bdaylabel{
+    grid-row: 19;
+  }
+  .labellux {
+    
+    font-family: 'Roboto', sans-serif;
+    font-size:45px;
+    border: none;
+    padding: .5em;
+   
+    background-color: white;
+color: black;
+    display: inline-block;
+ 
+    text-align: center;
+  
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+
+    box-shadow: 0 13px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+  }
+  
+  .labellux span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .labellux span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .labellux:hover span {
+    padding-right: 25px;
+  }
+  
+  .labelux:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .labelbday {
+    
+    font-family: 'Roboto', sans-serif;
+    font-size:45px;
+    border: none;
+    padding: .5em;
+   
+    background-color: white;
+color: black;
+    display: inline-block;
+ 
+    text-align: center;
+  
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+
+    box-shadow: 0 13px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+  }
+  
+  .labelbday span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .labelbday span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .labelbday:hover span {
+    padding-right: 25px;
+  }
+  
+  .labelbday:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+
+
+
+
+
+
+  .grid-containerbakery{
+    
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(30px, auto);
+    justify-items: stretch;
+    padding: 4em;
+    grid-gap: 3em;
+   align-content: center;
+   text-align: center;
+   border-style: double;
+    border-color: white;
+    border-width: 10px;
+    
+    
+}
+
+  
+  .item1bake{
+      color:white;
+      background-image:url('multigrain.jpg');
+      background-size: 100% 100%;
+      grid-column: 1;
+      grid-row: 1/9;
+      border-style: solid;
+      border-color: white;
+      border-width: 7px;
+      align-content: center;
+  }
+  .item2bake{
+    color:white;
+    background-image:url('challah.jpg');
+    background-size: 100% 100%;
+    grid-column: 2;
+    grid-row: 1/9;
+    padding: 1em;
+    border-style: solid;
+    border-color: white;
+    border-width: 7px;
+    
+}
+.item3bake{
+    color:white;
+    background-image:url('croissant.jpg');
+    background-size: 100% 100%;
+    grid-row: 11/19;
+    border-style: solid;
+    border-color: white;
+    border-width: 7px;
+    align-content: center;
+}
+.item4bake{
+  color:white;
+  background-image:url('ciabatta.jpg');
+  background-size: 100% 100%;
+  grid-row: 11/19;
+  padding: 1em;
+  border-style: solid;
+  border-color: white;
+  border-width: 7px;
+}
+.labelmulti {
+
+
+    font-family: 'Roboto', sans-serif;
+    font-size:45px;
+    border: none;
+    padding: .5em;
+   
+    background-color: white;
+color: black;
+    display: inline-block;
+ 
+    text-align: center;
+  
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+
+    box-shadow: 0 13px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+  }
+  
+  .labelmulti span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .labelmulti span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .labelmulti:hover span {
+    padding-right: 25px;
+  }
+  
+  .labelmulti:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
+  .labelchallah {
+
+
+    font-family: 'Roboto', sans-serif;
+    font-size:45px;
+    border: none;
+    padding: .5em;
+   
+    background-color: white;
+color: black;
+    display: inline-block;
+ 
+    text-align: center;
+  
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+
+    box-shadow: 0 13px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+  }
+  
+  .labelchallah span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .labelchallah span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .labelchallah:hover span {
+    padding-right: 25px;
+  }
+  
+  .labelchallah:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .cialabel{
+
+    grid-row: 19;
+  }
+  .croilabel{
+    grid-row: 19;
+  }
+  .labelcia {
+    
+    font-family: 'Roboto', sans-serif;
+    font-size:45px;
+    border: none;
+    padding: .5em;
+   
+    background-color: white;
+color: black;
+    display: inline-block;
+ 
+    text-align: center;
+  
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+
+    box-shadow: 0 13px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+  }
+  
+  .labelcia span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .labelcia span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .labelcia:hover span {
+    padding-right: 25px;
+  }
+  
+  .labelcia:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+ 
+
+  .labelcroi {
+
+
+    font-family: 'Roboto', sans-serif;
+    font-size:45px;
+    border: none;
+    padding: .5em;
+   
+    background-color: white;
+color: black;
+    display: inline-block;
+ 
+    text-align: center;
+  
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+
+    box-shadow: 0 13px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+  }
+  
+  .labelcroi span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .labelcroi span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .labelcroi:hover span {
+    padding-right: 25px;
+  }
+  
+  .labelcroi:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+
+
+
+
+
+
+
+  .grid-containerbakery{
+    
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: minmax(30px, auto);
+    justify-items: stretch;
+    padding: 4em;
+    grid-gap: 3em;
+   align-content: center;
+   text-align: center;
+   border-style: double;
+    border-color: white;
+    border-width: 10px;
+    
+    
+}
+
+  .bakeryback{
+    background-image: url('bakery2.jpg');
+    background-size: 100% 100%;
+   text-align: center;
+   opacity: 1;
+
+  }
+  .item1bake{
+      color:white;
+      background-image:url('multigrain.jpg');
+      background-size: 100% 100%;
+      grid-column: 1;
+      grid-row: 1/9;
+      border-style: solid;
+      border-color: white;
+      border-width: 7px;
+      align-content: center;
+  }
+  .item2bake{
+    color:white;
+    background-image:url('challah.jpg');
+    background-size: 100% 100%;
+    grid-column: 2;
+    grid-row: 1/9;
+    padding: 1em;
+    border-style: solid;
+    border-color: white;
+    border-width: 7px;
+    
+}
+.item3bake{
+    color:white;
+    background-image:url('croissant.jpg');
+    background-size: 100% 100%;
+    grid-row: 11/19;
+    border-style: solid;
+    border-color: white;
+    border-width: 7px;
+    align-content: center;
+}
+.item4bake{
+  color:white;
+  background-image:url('ciabatta.jpg');
+  background-size: 100% 100%;
+  grid-row: 11/19;
+  padding: 1em;
+  border-style: solid;
+  border-color: white;
+  border-width: 7px;
+}
+.labelmulti {
+
+
+    font-family: 'Roboto', sans-serif;
+    font-size:45px;
+    border: none;
+    padding: .5em;
+   
+    background-color: white;
+color: black;
+    display: inline-block;
+ 
+    text-align: center;
+  
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+
+    box-shadow: 0 13px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+  }
+  
+  .labelmulti span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .labelmulti span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .labelmulti:hover span {
+    padding-right: 25px;
+  }
+  
+  .labelmulti:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  
+  .labelchallah {
+
+
+    font-family: 'Roboto', sans-serif;
+    font-size:45px;
+    border: none;
+    padding: .5em;
+   
+    background-color: white;
+color: black;
+    display: inline-block;
+ 
+    text-align: center;
+  
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+
+    box-shadow: 0 13px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+  }
+  
+  .labelchallah span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .labelchallah span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .labelchallah:hover span {
+    padding-right: 25px;
+  }
+  
+  .labelchallah:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  .cialabel{
+
+    grid-row: 19;
+  }
+  .croilabel{
+    grid-row: 19;
+  }
+  .labelcia {
+    
+    font-family: 'Roboto', sans-serif;
+    font-size:45px;
+    border: none;
+    padding: .5em;
+   
+    background-color: white;
+color: black;
+    display: inline-block;
+ 
+    text-align: center;
+  
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+
+    box-shadow: 0 13px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+  }
+  
+  .labelcia span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .labelcia span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .labelcia:hover span {
+    padding-right: 25px;
+  }
+  
+  .labelcia:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+ 
+
+  .labelcroi {
+
+
+    font-family: 'Roboto', sans-serif;
+    font-size:45px;
+    border: none;
+    padding: .5em;
+   
+    background-color: white;
+color: black;
+    display: inline-block;
+ 
+    text-align: center;
+  
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+
+    box-shadow: 0 13px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+  }
+  
+  .labelcroi span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .labelcroi span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .labelcroi:hover span {
+    padding-right: 25px;
+  }
+  
+  .labelcroi:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+
+
+
+    
+    .email{
+
+        color:white;
+    }
+    .department{
+
+        color:white;
+    }
+    .loginbackground{
+        align-content: center;
+        position: absolute;
+        
+      
+        background-size: 100% 100%;
+     
+       
+        top: 0;
+        left: 0;
+        
+    }
+    .logingrid-container{
+    
+        display:grid;
+        grid-template-columns: 1fr ;
+        grid-auto-rows: minmax(80px, auto);
+        justify-items: stretch;
+        background-size: 106% 100%;
+        background-image: url('logincinna.jpg');
+       
+        
+    }
+    .backgrid{
+    
+        display:grid;
+        grid-template-columns: 1fr ;
+        grid-auto-rows: minmax(80px, auto);
+        justify-items: stretch;
+        background-size: 100% 100%;
+       
+        
+    }
+  
+    
+    .loginlogo{
+       
+    background-color:transparent;
+    grid-column: 1/4;
+    grid-row: 1;
+   
+    border-color: rgb(255, 255, 255);
+    
+  
+border-color: transparent;
+    border-width: 5;
+    border-style: double;
+    text-align: center;
+
+    border-width: 3px;
+    opacity: 1;
+    z-index: 1;
+   
+
+    }
+
+    .loginlogobutton{
+        color: rgb(255, 255, 255);
+        text-shadow: 0 -2px 5px rgba(223, 123, 30, 0.7); 
+        font-size: 190px;
+        font-family: 'Tangerine', cursive;
+        text-align: center;
+        
+     
+    
+      border-style: none;
+       
+        background-color: transparent;
+        opacity: 1;
+     
+    
+    }
+
+    .loginitem2{
+
+        grid-column: 1/4;
+        grid-row: 2/4;
+    }
+
+    .loginitem3{
+
+        grid-column: 1/4;
+        grid-row: 5/8;
+        align-content: center;
+        text-align: center;
+    }
+    
+/*
+.wrapper{
+    background-image: url('cinnamoncover.jpg');
+    background-size: 100% 100%;
+   
+
+   
+}
+.box1{
+    color: rgb(245, 0, 0); 
+    background-color:rgb(0, 0, 0);    
+}
+.box2{
+    color: rgb(245, 0, 0);    
+    background-color:rgb(0, 0, 0); 
+}
+.box3{
+    background-color:rgb(0, 0, 0); 
+    grid-column: 3/4;
+    grid-row: 1/3;  
+
+    font-family: 'Pinyon Script', cursive;
+    font-size: 110px;
+    color: rgb(255, 255, 255); 
+    text-align: center; 
+
+}
+.box4{
+    color: rgb(245, 0, 0);   
+    background-color:rgb(0, 0, 0); 
+}
+.box5{
+    color: rgb(245, 0, 0); 
+    background-color:rgb(0, 0, 0);    
+}
+.box6{
+    color: rgb(245, 0, 0);    
+}
+.box7{
+
+    color: rgb(245, 0, 0);    
+}
+.box8{
+    color: rgb(245, 0, 0);    
+}
+.box9{
+    color: rgb(245, 0, 0);    
+}
+.box10{
+    color: rgb(245, 0, 0);    
+    grid-column: 1/6;
+    grid-row: 3/9;  
+}
+
+*{
     box-sizing: border-box;
 }
+ #me{
+    color: #eee;
+ }
+
+
+.grid-container {
+   display: grid;
+    grid-gap: 50px 100px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 80px 200px;
+    height: 400px;
+    
+  }
+
+  .item2{
+
+    position: absolute;
+    align-content: center;
+
+    
+  }
+
+font-family: 'Tangerine', cursive;
+font: font-family: 'Roboto', sans-serif;
+font-family: 'Montez', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Pinyon Script', cursive;
+font-family: 'Kristi', cursive;
+'Pinyon Script', cursive;
+font-family: 'Dawning of a New Day', cursive;
+font-family: 'Allura', cursive;
+#html{
+    max-width: 100px;
+    max-height: 1300px;
+}
+
+#add{
+    
+    font-size: 25px;
+    border: none;
+    background-color: rgb(44, 171, 255);
+    font-family: myfont;
+    color: rgb(255, 255, 255) ;
+    border-radius: 10px;
+}
+
+
+
 #form{
     position: relative;
     left: 30%;
 }
 
+#logo{
+    position: absolute;
+    background-image: url("mainlogo.jpg");
+    height: 50%;
+    width: 50%;
+    top: 0;
+    left: 0;
+
+}
 
 
 .done{
@@ -22,23 +1378,149 @@ title {
     height: 90%;
     top: 15%;
     left: 22%;
-    background-color: rgb(255, 255, 255) ;
+    
    
+  }
+ 
+  #the{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    opacity: .4;
+    color: rgb(255, 255, 255) ;
+      position: absolute;
+    top: 9.5%;
+    left: 32%;
+    z-index: 2;
+}
+#bakery{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    opacity: 0.4;
+    color: rgb(255, 255, 255) ;
+      position: absolute;
+    top: 9.5%;
+    left: 64.8%;
+    z-index: 2;
+    
+}
+  
+  #paragraph{
+      font-family: 'Pinyon Script', cursive;
+      font-size: 110px;
+      border-width: medium;
+      border-style: double;
+      border-color:rgb(73, 54, 48) ;
+      background-color: transparent;
+    
+      position:absolute;
+      top: 1%;
+      left: 34%;
+    
+
+
+      text-shadow: 0 -1px 1px rgba(255, 161, 39, 0.7);
+      color: rgb(128, 44, 19) ;
+       
+     
+      z-index: 4;
   }
 
   #topbar{
-    position: absolute;
-    width: 100%;
-    height: 10%;
-    top: 0%;
-    left: 0%;
-    background-color: rgb(44, 171, 255);
-    color: rgb(255, 255, 255) ;
+
+   
+   width: 75px;
+   height: 100px;
+   top: 15%;
+   left: 30%;
+
+ 
+
+position: absolute;
+
+
+    background-color: rgb(0, 0, 0);
+
+    
+    color: rgb(0, 0, 0) ;
+   
     border-top-style: solid;;
     border-right-style: solid;
     border-bottom-style: solid;
     border-left-style: solid;
     border-width: 5px;
+    z-index: 3;
+    
+   
+
+
+
+  }
+
+  #sidebars{
+
+
+    position: absolute;
+    width: 100%;
+    height: 15%;
+    top: 0%;
+    left: 0%;
+    background-color: rgb(0, 0, 0);
+
+    
+    color: rgb(0, 0, 0) ;
+
+z-index: 0;
+  }
+  #sidebars2{
+
+
+    position: absolute;
+    width: 24.5%;
+    height: 15%;
+    top: 1.3%;
+    left: 0%;
+    background-color: rgb(0, 0, 0);
+opacity: 0.8;
+    
+    color: rgb(0, 0, 0) ;
+
+z-index: 1;
+  }
+
+  #sidebars3{
+
+
+    position: absolute;
+    width: 24.5%;
+    height: 15%;
+    top: 1.3%;
+    left: 75.5%;
+    background-color: rgb(0, 0, 0);
+opacity: 0.8;
+    
+    color: rgb(0, 0, 0) ;
+
+z-index: 1;
+  }
+  #topbar2{
+    position: absolute;
+    width: 51%;
+    height: 23%;
+    top: 5%;
+    left: 24.5%;
+    background-color: rgb(0, 0, 0);
+
+    opacity: .8;
+    color: rgb(0, 0, 0) ;
+   
+    border-top-style: solid;;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-width: 5px;
+    z-index: 0;
+    
+   
 
 
 
@@ -50,12 +1532,11 @@ title {
       top: 8%;
       color: rgb(255, 255, 255) ;
       
-      font-size: 250%;
+      font-size: 500%;
 
       
-      font-family: didot;
-      
-     font-style: initial;
+      font-family: fantasy;
+    font-style: italic;
      
   }
  #add{
@@ -63,7 +1544,7 @@ title {
     font-size: 25px;
     border: none;
     background-color: rgb(44, 171, 255);
-    font-family: didot;
+    font-family: myfont;
     color: rgb(255, 255, 255) ;
     border-radius: 10px;
    
@@ -98,9 +1579,601 @@ title {
 
  }
 
+#baked{
+    font-size: 22px;
+    
+    
+    border-top-style: none;;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-left-style: none;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255) ;
+
+    background-color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255) ;
+    z-index: 5;
+    position: absolute;
+    top: 35%;
+    left: 65%;
+    opacity: 0.8;
+
+   
+    
+
+}
+#chocolate{
+    font-size: 22px;
+    
+   
+    background-color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255) ;
+    z-index: 4;
+    position: absolute;
+    top: 35%;
+    left: 4%;
+    border-top-style: none;;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-left-style: none;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255) ;
+    
+    opacity: 0.8;
+}
+
+#gifts{
+    font-size: 22px;
+    
+   
+    background-color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255) ;
+    z-index: 4;
+    position: absolute;
+    top: 35%;
+    left: 8%;
+    border-top-style: none;;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-left-style: none;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255) ;
+    
+    opacity: 0.8;
+}
+#ingre{
+    font-size: 22px;
+    
+   
+    background-color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255) ;
+    z-index: 4;
+    position: absolute;
+    top: 35%;
+    left: 53%;
+    border-top-style: none;;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-left-style: none;
+    border-width: 1px;
+    border-color: rgb(255, 255, 255) ;
+
+    opacity: 0.8;
+    
+
+}
+#cutoff{
+
+    position: absolute;
+    width: 100%;
+    height: 13%;
+    top: 100%;
+    left: 0%;
+    background-color: rgb(0, 0, 0);
+
+    
+    color: rgb(0, 0, 0) ;
+   
+ 
+
+
+  }
+  #quote{
+    font-size: 25px;
+    background-color: transparent;
+    font-family:  'Pinyon Script', cursive;
+    color: rgb(255, 255, 255) ;
+    z-index: 4;
+    position: absolute;
+    top: 14%;
+    left: 44%;
+    opacity: 0.6;
+  }
+
+  #chocolatebackground{
+      
+      position: absolute;
+      background-color: rgb(80, 37, 29);
+      background-image: url('cloth.jpg');
+     
+      background-size: 100% 100%;
+      height: 200%;
+      width: 100%;
+      top: 100%;
+      left: 0;
+      z-index: 0;
+  }
+
+  #choctitle{
+
+    position: absolute;
+    width: 100%;
+    height: 65%;
+    top: -59%;
+    left: 0%;
+    background-size: 100% 100%;
+
+    background-image: url('boxchoc.jpg');
+
+   
+  
+    z-index: 3;
+  }
+  #sigchoc{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-family:'Roboto', sans-serif;
+
+    z-index: 4;
+    font-size: 70px;
+    left: 30%;
+    top: 50%;
+    background-color: black;
+    opacity: 0.8;
+  }
+#dark{
+    position: absolute;
+    width: 55%;
+    height: 270%;
+    top: 600%;
+    left: -20%;
+    background-size: 100% 100%;
+    border-style: solid;
+    border-color: black;
+    border-width: 19px;
+
+    background-image: url('darkchoc.jpg');
+
+}
+#milk{
+    position: absolute;
+    width: 55%;
+    height: 270%;
+    top: 600%;
+    left: 66%;
+    background-size: 100% 100%;
+    border-style: solid;
+    border-color: black;
+    border-width: 19px;
+
+    background-image: url('milkchoc.jpg');
+
+}
+
+#milklab{
+
+    position: absolute;
+   
+    color: rgb(255, 255, 255);
+    font-family:'Pinyon Script', cursive;
+    font-size: 35px;
+    top: 887%;
+    left: 80%;
+width: 50%;
+   
+}
+#milklabback{
+    position: absolute;
+   
+    top: 880%;
+    left: 75%;
+
+    width: 40%;
+    height: 40%;
+   
+    
+    background-color: black;
+    opacity: .8;
+
+}
+
+#darklab{
+
+    position: absolute;
+   
+    color: rgb(255, 255, 255);
+    font-family:'Pinyon Script', cursive;
+    font-size: 35px;
+    top: 887%;
+    left: -8%;
+width: 50%;
+z-index: 1;
+   
+}
+#darklabback{
+    position: absolute;
+   
+    top: 880%;
+    left: -12%;
+
+    width: 40%;
+    height: 40%;
+   
+    
+    background-color: black;
+    opacity: .8;
+
+}
+#bdaybutton{
+    position: absolute;
+    width: 55%;
+    height: 270%;
+    top: 600%;
+    left: -20%;
+    background-size: 100% 100%;
+    border-style: solid;
+    border-color: black;
+    border-width: 19px;
+
+    background-image: url('bdaychoc.jpg');
+
+}
+#luxbutton{
+    position: absolute;
+    width: 55%;
+    height: 270%;
+    top: 960%;
+    left: 66%;
+    background-size: 100% 100%;
+    border-style: solid;
+    border-color: black;
+    border-width: 19px;
+
+    background-image: url('luxtruff.jpg');
+
+}
+
+#luxlab{
+
+    position: absolute;
+   
+    color: rgb(255, 255, 255);
+    font-family:'Pinyon Script', cursive;
+    font-size: 35px;
+    top: 1246%;
+    left: 77%;
+width: 50%;
+   
+}
+#luxlabback{
+    position: absolute;
+   
+    top: 1240%;
+    left: 72.5%;
+
+    width: 43%;
+    height: 40%;
+   
+    
+    background-color: black;
+    opacity: .8;
+
+}
+
+#luxbutton{
+    position: absolute;
+    width: 55%;
+    height: 270%;
+    top: 960%;
+    left: 66%;
+    background-size: 100% 100%;
+    border-style: solid;
+    border-color: black;
+    border-width: 19px;
+
+    background-image: url('luxtruff.jpg');
+
+}
+#bdaybutton{
+    position: absolute;
+    width: 55%;
+    height: 270%;
+    top: 960%;
+    left: -20%;
+    background-size: 100% 100%;
+    border-style: solid;
+    border-color: black;
+    border-width: 19px;
+
+    background-image: url('bdaychoc.jpg');
+
+}
+#bdaylab{
+
+    position: absolute;
+   
+    color: rgb(255, 255, 255);
+    font-family:'Pinyon Script', cursive;
+    font-size: 35px;
+    top: 1246%;
+    left: -9.6%;
+width: 50%;
+z-index: 1;
+   
+}
+#bdaylabback{
+    position: absolute;
+   
+    top: 1240%;
+    left: -12%;
+
+    width: 43%;
+    height: 40%;
+   
+    
+    background-color: black;
+    opacity: .8;
+
+}
 
 
 
+
+
+
+
+
+#bakebackground{
+      
+    position: absolute;
+    background-color: rgb(80, 37, 29);
+    background-image: url('cloth.jpg');
+   
+    background-size: 100% 100%;
+    height: 200%;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    z-index: 0;
+}
+
+#baketitle{
+
+  position: absolute;
+  width: 100%;
+  height: 65%;
+  top: -60%;
+  left: 0%;
+  background-size: 100% 100%;
+
+  background-image: url('bread.jpg');
 
  
 
+  z-index: 3;
+}
+#sigbake{
+  position: absolute;
+  color: rgb(255, 255, 255);
+  font-family:'Roboto', sans-serif;
+
+  z-index: 4;
+  font-size: 70px;
+  left: 36%;
+  top: 50%;
+  background-color: black;
+  opacity: 0.8;
+
+  
+ 
+}
+
+#challah{
+    position: absolute;
+    width: 55%;
+    height: 250%;
+    top: 600%;
+    left: -20%;
+    background-size: 100% 100%;
+    border-style: solid;
+    border-color: black;
+    border-width: 19px;
+
+    background-image: url('challah.jpg');
+
+}
+#multi{
+    position: absolute;
+    width: 55%;
+    height: 20%;
+    top: 600%;
+    left: 66%;
+    background-size: 100% 100%;
+    border-style: solid;
+    border-color: black;
+    border-width: 19px;
+
+    background-image: url('multigrain.jpg');
+
+}
+
+#multilab{
+
+    position: absolute;
+   
+    color: rgb(255, 255, 255);
+    font-family:'Pinyon Script', cursive;
+    font-size: 35px;
+    top: 887%;
+    left: 80%;
+width: 50%;
+   
+}
+#multilabback{
+    position: absolute;
+   
+    top: 880%;
+    left: 75%;
+
+    width: 40%;
+    height: 40%;
+   
+    
+    background-color: black;
+    opacity: .8;
+
+}
+
+#challahlab{
+
+    position: absolute;
+   
+    color: rgb(255, 255, 255);
+    font-family:'Pinyon Script', cursive;
+    font-size: 35px;
+    top: 887%;
+    left: 0.5%;
+width: 50%;
+z-index: 1;
+   
+}
+#challahlabback{
+    position: absolute;
+   
+    top: 880%;
+    left: -12%;
+
+    width: 40%;
+    height: 40%;
+   
+    
+    background-color: black;
+    opacity: .8;
+
+}
+#ciabattabutton{
+    position: absolute;
+    width: 55%;
+    height: 250%;
+    top: 960%;
+    left: -20%;
+    background-size: 100% 100%;
+    border-style: solid;
+    border-color: black;
+    border-width: 19px;
+
+    background-image: url('ciabatta.jpg');
+
+}
+#luxbutton{
+    position: absolute;
+    width: 55%;
+    height: 270%;
+    top: 960%;
+    left: 66%;
+    background-size: 100% 100%;
+    border-style: solid;
+    border-color: black;
+    border-width: 19px;
+
+    background-image: url('luxtruff.jpg');
+
+}
+
+#croissantlab{
+
+    position: absolute;
+   
+    color: rgb(255, 255, 255);
+    font-family:'Pinyon Script', cursive;
+    font-size: 35px;
+    top: 1246%;
+    left: 85.5%;
+width: 50%;
+   
+}
+#croissantlabback{
+    position: absolute;
+   
+    top: 1240%;
+    left: 72.5%;
+
+    width: 43%;
+    height: 40%;
+   
+    
+    background-color: black;
+    opacity: .8;
+
+}
+
+#croissantbutton{
+    position: absolute;
+    width: 55%;
+    height: 250%;
+    top: 960%;
+    left: 66%;
+    background-size: 100% 100%;
+    border-style: solid;
+    border-color: black;
+    border-width: 19px;
+
+    background-image: url('croissant.jpg');
+
+}
+#ciabattabutton{
+    position: absolute;
+    width: 55%;
+    height: 250%;
+    top: 960%;
+    left: -20%;
+    background-size: 100% 100%;
+    border-style: solid;
+    border-color: black;
+    border-width: 19px;
+
+    background-image: url('ciabatta.jpg');
+
+}
+#ciabattalab{
+
+    position: absolute;
+   
+    color: rgb(255, 255, 255);
+    font-family:'Pinyon Script', cursive;
+    font-size: 35px;
+    top: 1246%;
+    left: 1%;
+width: 50%;
+z-index: 1;
+   
+}
+#ciabattalabback{
+    position: absolute;
+   
+    top: 1240%;
+    left: -12%;
+
+    width: 43%;
+    height: 40%;
+   
+    
+    background-color: black;
+    opacity: .8;
+
+}
+*/

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title></title>
+<style> 
+.wrapper{
+    display:grid;
+    grid-template-columns: 1fr 1fr 2fr 1fr 1fr;
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 1em;
+    justify-items: stretch;
+    
+
+   /* grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    */
+    grid-gap: 1em;
+   /* grid-auto-rows: 100px; */
+   grid-auto-rows: minmax(100px, auto);
+}
+
+.wrapper > div {
+
+
+    background: #eee;
+
+}
+.box6{
+
+   grid-column: 1/6;
+   grid-row: 2/9;
+background-image: url('cinnamoncover.jpg')
+}
+
+
+</style>
+        
+    </head>
+
+    <body>
+            
+      <div class = "wrapper">
+
+<div class = "box box1"> Box 1</div>
+<div class = "box box2"> Box 2</div>
+<div class = "box box3"> Box 3</div>
+<div class = "box box4"> Box 4</div>
+<div class = "box box5"> Box 5</div>
+<div class = "box box6"> Box 6</div>
+<div class = "box box7"> Box 7</div>
+<div class = "box box8"> Box 8</div>
+
+      </div>
+        
+
+         </body>
+</html>

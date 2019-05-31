@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <title>To Dos</title>
+<link href="https://fonts.googleapis.com/css?family=Pinyon+Script&display=swap" rel="stylesheet">"
+<link href="https://fonts.googleapis.com/css?family=Roboto:100&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montez&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Pinyon+Script&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Kristi&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="/todo.css">
+        <link href="https://fonts.googleapis.com/css?family=Tangerine&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+            
+        <header><h1>To Do List</h1></header>
+        <main>
+                <div id = 'sigchoc'> C H O C O L A T E  </div>
+
+                
+           
+                <div id= "chocolatebackground">
+                    
+                        <div id="choctitle"> 
+                            </div>
+                        </div>
+                
+
+
+                    <div id = 'the'> the</div>
+                    <button id = 'paragraph'> Cinnavilla</button>
+                    <div id = 'bakery'> treatery</div>
+                </div>
+                <div id = 'quote'> Live Deliciously</div>
+                    
+                <div id="topbar"> 
+                        <button id = 'luxbutton' href = '#' ></button>
+                        <button id = 'bdaybutton' href = '#' ></button>
+                        <button id = 'dark' href = '#' ></button>
+                        <button id = 'milk' href = '#' ></button>
+                        <div id = 'darklab'> Dark Assortment</div>
+                        <button id = 'darklabback'> </button>
+                            <button id ='milklabback'> </button>
+                        <div id = 'milklab'> Milk Assortment</div>
+                        <div id = 'bdaylab'> Birthday Assortment</div>
+                        <button id = 'bdaylabback'> </button>
+                            <button id = 'luxlabback'> </button>
+                        <div id = 'luxlab'> Luxury Assortment</div>
+                         </div>
+                         <div id="sidebars"> 
+                                
+                            </div>
+                            <div id="sidebars2"> 
+                                    <button id = 'baked' href = '#' >BAKERY</button>
+                                    <button id = 'chocolate' href = '#' >CHOCOLATE</button>
+                                </div>
+                                <div id="sidebars3"> 
+                                        <button id = 'gifts' href = '#' >GIFTS</button>
+                                        <button id = 'ingre' href = '#' >INGREDIENTS</button>
+                                    </div>
+                         <div id="topbar2"> 
+                        
+                            </div>
+                        
+                         <div id="header">
+            <div id = 'form' class="todo-wrapper">
+                    
+             <!--   <ul class="todo-list">
+                    <li id = 'learn' class="todo-list--item">
+                        Learn Javascript
+                        <button id = 'finished' class="todo-list--item--done">Done</button>
+                        <button id = 'removal' href = '#' class="todo-list--item--remove">Remove</button>
+                    </li>
+                </ul>
+                <div class="todo-form">
+                    <input id = 'theinput' class="todo-form--input" type="text"  />
+                    <button id = 'add' class="todo-form--add">Add Task</button>
+                </div>
+            -->
+
+                
+            </div>
+        </div>
+    </div>
+    <div id="cutoff"> 
+                                
+        </div>
+            
+
+
+
+        </main>
+        <script src="/todo.js"></script>
+        <script>listenHomepage()</script>
+
+        <script>
+             const config = (window.location.search||'')
+            .slice(1)
+            .split('&')
+            .map(kv => kv.split('='))
+            .reduce((memo, [key, value]) => ({ ...memo, [key]: value }),{
+                user: 'rachelmay@pendo.io',
+                account: 'pendo',
+             
+            });
+  
+        console.log({
+            ...config,
+
+        });
+        (function(apiKey) {
+            (function(p,e,n,d,o) {
+                var v,w,x,y,z; o=p[d]=p[d]||{}; o._q=[];
+                v=['initialize','identify','updateOptions','pageLoad']; for(w=0,x=v.length;w<x;++w)(function(m) {
+                    o[m]=o[m]||function() {o._q[m===v[0]? 'unshift':'push']([m].concat([].slice.call(arguments,0)));};
+                })(v[w]);
+                y=e.createElement(n); y.async=!0; y.src='https://pendo-atlas-static.storage.googleapis.com/agent/static/'+apiKey+'/pendo.js';
+                z=e.getElementsByTagName(n)[0]; z.parentNode.insertBefore(y,z);
+            })(window,document,'script','pendo');
+            pendo.initialize({
+                apiKey: apiKey,
+                visitor: {
+                    id: config.user,
+                    email: config.user,
+                    foo: config.user.includes('foo'),
+                    widgets: !!Math.round(Math.random()) ? ['foo', 'bar'] : ['baz', 'quux'],
+                    idlen: config.user.length,
+                    arr: parseFloat(config.user.length + 0.5)
+                },
+                account: {
+                    id: config.account
+                }
+            });
+        })('ea4102b6-df0a-44e1-4c2b-000e5efa864a');
+                
+                </script>
+    </body>
+</html>

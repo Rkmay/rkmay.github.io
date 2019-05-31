@@ -10,6 +10,53 @@ function $$ (selector) {
 
 
 function listenHomepage () {
+
+   
+
+    let chocolate = false;
+
+    $(".chocolate").addEventListener("click", evt => {
+
+        console.log(evt)
+        if (chocolate) {
+            alert(`The combination is 1-2-3-4`);
+            window.location = '/index2.html'
+        } else {
+            
+            window.location = 'Chocolate.html'
+           
+        }
+    })
+    let bake = false;
+
+    $(".bakery").addEventListener("click", evt => {
+
+        console.log(evt)
+        if (bake) {
+            alert(`The combination is 1-2-3-4`);
+            window.location = '/index2.html'
+        } else {
+            
+            window.location = 'Bakery.html'
+           
+        }
+    })
+    let gifts = false;
+
+    $(".gifts").addEventListener("click", evt => {
+
+        console.log(evt)
+        if (gifts) {
+            alert(`The combination is 1-2-3-4`);
+            window.location = '/index2.html'
+        } else {
+            
+            window.location = 'Gifts.html'
+           
+        }
+    })
+
+
     $('.todo-form--add').addEventListener('click', function () {
         const inputField = $('.todo-form--input');
         const text = inputField.value;
@@ -20,7 +67,7 @@ function listenHomepage () {
         else{
         
         console.log(text);
-        addItem(text + "   ");
+        addItem(text + "  ");
         inputField.value = '';
     
         }
@@ -81,4 +128,17 @@ function removeItem (event) {
 
 }
 
+
+
+let home = false;
+$("#paragraph").addEventListener("click", evt => {
+    if (home) {
+        alert(`The combination is 1-2-3-4`);
+        window.location = '/index.html'
+    } else {
+        
+        window.location = '/index.html'
+       
+    }
+})
 
